@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6203DF41611F4B300B88CF0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6203DF31611F4B300B88CF0 /* UIKit.framework */; };
+		F6203DF61611F4B300B88CF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6203DF51611F4B300B88CF0 /* Foundation.framework */; };
+		F6203DF81611F4B300B88CF0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6203DF71611F4B300B88CF0 /* CoreGraphics.framework */; };
+		F6203DFE1611F4B300B88CF0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6203DFC1611F4B300B88CF0 /* InfoPlist.strings */; };
+		F6203E001611F4B300B88CF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6203DFF1611F4B300B88CF0 /* main.m */; };
+		F6203E041611F4B300B88CF0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6203E031611F4B300B88CF0 /* AppDelegate.m */; };
+		F6203E061611F4B300B88CF0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F6203E051611F4B300B88CF0 /* Default.png */; };
+		F6203E081611F4B400B88CF0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6203E071611F4B400B88CF0 /* Default@2x.png */; };
+		F6203E0A1611F4B400B88CF0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6203E091611F4B400B88CF0 /* Default-568h@2x.png */; };
+		F6203E0D1611F4B400B88CF0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6203E0B1611F4B400B88CF0 /* MainStoryboard.storyboard */; };
+		F6203E101611F4B400B88CF0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6203E0F1611F4B400B88CF0 /* ViewController.m */; };
+		F6203E181611F4B400B88CF0 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6203E171611F4B400B88CF0 /* SenTestingKit.framework */; };
+		F6203E191611F4B400B88CF0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6203DF31611F4B300B88CF0 /* UIKit.framework */; };
+		F6203E1A1611F4B400B88CF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6203DF51611F4B300B88CF0 /* Foundation.framework */; };
+		F6203E221611F4B400B88CF0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6203E201611F4B400B88CF0 /* InfoPlist.strings */; };
+		F6203E251611F4B400B88CF0 /* VideoPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6203E241611F4B400B88CF0 /* VideoPlayerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6203E1B1611F4B400B88CF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6203DE61611F4B300B88CF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6203DEE1611F4B300B88CF0;
+			remoteInfo = VideoPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F6203DEF1611F4B300B88CF0 /* VideoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6203DF31611F4B300B88CF0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F6203DF51611F4B300B88CF0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F6203DF71611F4B300B88CF0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F6203DFB1611F4B300B88CF0 /* VideoPlayer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VideoPlayer-Info.plist"; sourceTree = "<group>"; };
+		F6203DFD1611F4B300B88CF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F6203DFF1611F4B300B88CF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F6203E011611F4B300B88CF0 /* VideoPlayer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VideoPlayer-Prefix.pch"; sourceTree = "<group>"; };
+		F6203E021611F4B300B88CF0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F6203E031611F4B300B88CF0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F6203E051611F4B300B88CF0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F6203E071611F4B400B88CF0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F6203E091611F4B400B88CF0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F6203E0C1611F4B400B88CF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		F6203E0E1611F4B400B88CF0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F6203E0F1611F4B400B88CF0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F6203E161611F4B400B88CF0 /* VideoPlayerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoPlayerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6203E171611F4B400B88CF0 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F6203E1F1611F4B400B88CF0 /* VideoPlayerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VideoPlayerTests-Info.plist"; sourceTree = "<group>"; };
+		F6203E211611F4B400B88CF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F6203E231611F4B400B88CF0 /* VideoPlayerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoPlayerTests.h; sourceTree = "<group>"; };
+		F6203E241611F4B400B88CF0 /* VideoPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoPlayerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6203DEC1611F4B300B88CF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6203DF41611F4B300B88CF0 /* UIKit.framework in Frameworks */,
+				F6203DF61611F4B300B88CF0 /* Foundation.framework in Frameworks */,
+				F6203DF81611F4B300B88CF0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6203E121611F4B400B88CF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6203E181611F4B400B88CF0 /* SenTestingKit.framework in Frameworks */,
+				F6203E191611F4B400B88CF0 /* UIKit.framework in Frameworks */,
+				F6203E1A1611F4B400B88CF0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6203DE41611F4B300B88CF0 = {
+			isa = PBXGroup;
+			children = (
+				F6203DF91611F4B300B88CF0 /* VideoPlayer */,
+				F6203E1D1611F4B400B88CF0 /* VideoPlayerTests */,
+				F6203DF21611F4B300B88CF0 /* Frameworks */,
+				F6203DF01611F4B300B88CF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6203DF01611F4B300B88CF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6203DEF1611F4B300B88CF0 /* VideoPlayer.app */,
+				F6203E161611F4B400B88CF0 /* VideoPlayerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6203DF21611F4B300B88CF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6203DF31611F4B300B88CF0 /* UIKit.framework */,
+				F6203DF51611F4B300B88CF0 /* Foundation.framework */,
+				F6203DF71611F4B300B88CF0 /* CoreGraphics.framework */,
+				F6203E171611F4B400B88CF0 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6203DF91611F4B300B88CF0 /* VideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				F6203E021611F4B300B88CF0 /* AppDelegate.h */,
+				F6203E031611F4B300B88CF0 /* AppDelegate.m */,
+				F6203E0B1611F4B400B88CF0 /* MainStoryboard.storyboard */,
+				F6203E0E1611F4B400B88CF0 /* ViewController.h */,
+				F6203E0F1611F4B400B88CF0 /* ViewController.m */,
+				F6203DFA1611F4B300B88CF0 /* Supporting Files */,
+			);
+			path = VideoPlayer;
+			sourceTree = "<group>";
+		};
+		F6203DFA1611F4B300B88CF0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6203DFB1611F4B300B88CF0 /* VideoPlayer-Info.plist */,
+				F6203DFC1611F4B300B88CF0 /* InfoPlist.strings */,
+				F6203DFF1611F4B300B88CF0 /* main.m */,
+				F6203E011611F4B300B88CF0 /* VideoPlayer-Prefix.pch */,
+				F6203E051611F4B300B88CF0 /* Default.png */,
+				F6203E071611F4B400B88CF0 /* Default@2x.png */,
+				F6203E091611F4B400B88CF0 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F6203E1D1611F4B400B88CF0 /* VideoPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6203E231611F4B400B88CF0 /* VideoPlayerTests.h */,
+				F6203E241611F4B400B88CF0 /* VideoPlayerTests.m */,
+				F6203E1E1611F4B400B88CF0 /* Supporting Files */,
+			);
+			path = VideoPlayerTests;
+			sourceTree = "<group>";
+		};
+		F6203E1E1611F4B400B88CF0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6203E1F1611F4B400B88CF0 /* VideoPlayerTests-Info.plist */,
+				F6203E201611F4B400B88CF0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6203DEE1611F4B300B88CF0 /* VideoPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6203E281611F4B400B88CF0 /* Build configuration list for PBXNativeTarget "VideoPlayer" */;
+			buildPhases = (
+				F6203DEB1611F4B300B88CF0 /* Sources */,
+				F6203DEC1611F4B300B88CF0 /* Frameworks */,
+				F6203DED1611F4B300B88CF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoPlayer;
+			productName = VideoPlayer;
+			productReference = F6203DEF1611F4B300B88CF0 /* VideoPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6203E151611F4B400B88CF0 /* VideoPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6203E2B1611F4B400B88CF0 /* Build configuration list for PBXNativeTarget "VideoPlayerTests" */;
+			buildPhases = (
+				F6203E111611F4B400B88CF0 /* Sources */,
+				F6203E121611F4B400B88CF0 /* Frameworks */,
+				F6203E131611F4B400B88CF0 /* Resources */,
+				F6203E141611F4B400B88CF0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6203E1C1611F4B400B88CF0 /* PBXTargetDependency */,
+			);
+			name = VideoPlayerTests;
+			productName = VideoPlayerTests;
+			productReference = F6203E161611F4B400B88CF0 /* VideoPlayerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6203DE61611F4B300B88CF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "matthew radke";
+			};
+			buildConfigurationList = F6203DE91611F4B300B88CF0 /* Build configuration list for PBXProject "VideoPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F6203DE41611F4B300B88CF0;
+			productRefGroup = F6203DF01611F4B300B88CF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6203DEE1611F4B300B88CF0 /* VideoPlayer */,
+				F6203E151611F4B400B88CF0 /* VideoPlayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6203DED1611F4B300B88CF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6203DFE1611F4B300B88CF0 /* InfoPlist.strings in Resources */,
+				F6203E061611F4B300B88CF0 /* Default.png in Resources */,
+				F6203E081611F4B400B88CF0 /* Default@2x.png in Resources */,
+				F6203E0A1611F4B400B88CF0 /* Default-568h@2x.png in Resources */,
+				F6203E0D1611F4B400B88CF0 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6203E131611F4B400B88CF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6203E221611F4B400B88CF0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F6203E141611F4B400B88CF0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6203DEB1611F4B300B88CF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6203E001611F4B300B88CF0 /* main.m in Sources */,
+				F6203E041611F4B300B88CF0 /* AppDelegate.m in Sources */,
+				F6203E101611F4B400B88CF0 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6203E111611F4B400B88CF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6203E251611F4B400B88CF0 /* VideoPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6203E1C1611F4B400B88CF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6203DEE1611F4B300B88CF0 /* VideoPlayer */;
+			targetProxy = F6203E1B1611F4B400B88CF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6203DFC1611F4B300B88CF0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6203DFD1611F4B300B88CF0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F6203E0B1611F4B400B88CF0 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6203E0C1611F4B400B88CF0 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		F6203E201611F4B400B88CF0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6203E211611F4B400B88CF0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6203E261611F4B400B88CF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F6203E271611F4B400B88CF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6203E291611F4B400B88CF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VideoPlayer/VideoPlayer-Prefix.pch";
+				INFOPLIST_FILE = "VideoPlayer/VideoPlayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F6203E2A1611F4B400B88CF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VideoPlayer/VideoPlayer-Prefix.pch";
+				INFOPLIST_FILE = "VideoPlayer/VideoPlayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F6203E2C1611F4B400B88CF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VideoPlayer.app/VideoPlayer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VideoPlayer/VideoPlayer-Prefix.pch";
+				INFOPLIST_FILE = "VideoPlayerTests/VideoPlayerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F6203E2D1611F4B400B88CF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VideoPlayer.app/VideoPlayer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VideoPlayer/VideoPlayer-Prefix.pch";
+				INFOPLIST_FILE = "VideoPlayerTests/VideoPlayerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6203DE91611F4B300B88CF0 /* Build configuration list for PBXProject "VideoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6203E261611F4B400B88CF0 /* Debug */,
+				F6203E271611F4B400B88CF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6203E281611F4B400B88CF0 /* Build configuration list for PBXNativeTarget "VideoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6203E291611F4B400B88CF0 /* Debug */,
+				F6203E2A1611F4B400B88CF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F6203E2B1611F4B400B88CF0 /* Build configuration list for PBXNativeTarget "VideoPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6203E2C1611F4B400B88CF0 /* Debug */,
+				F6203E2D1611F4B400B88CF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6203DE61611F4B300B88CF0 /* Project object */;
+}
